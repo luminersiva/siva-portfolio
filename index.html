@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="portfolio.css">
+
+        <title>Portfolio Website</title>
+        <link rel="shortcut icon" href="https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg" type="image/x-icon">
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">SIVA BALAN</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class="uil uil-estate nav_icon"></i> Home 
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">
+                                <i class="uil uil-user nav_icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class="uil uil-file nav_icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#qualification" class="nav_link">
+                                <i class="uil uil-graduation-cap nav_icon"></i> Qualifications
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class="uil uil-message nav_icon"></i> Contact 
+                            </a>
+                        </li>
+                        <i class="uil uil-times" id="nav-close"></i>
+                    </ul>
+
+                </div>
+
+                <div class="nav_btns">
+                    <!-- theme -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="main">
+
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="" target="_blank" class="home_social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+
+                            <a href="https://github.com/luminersiva" target="_blank" class="home_social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" class="home_social-icon">
+                                <i class="uil uil-dribbble"></i>
+                            </a>
+                        </div>
+
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <!-- <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                
+                                    <image class="home_blob-img"  href="WhatsApp Image 2024-04-22 at 13.41.56_3bb0f137.jpg"  style="height: 190px; width:auto x=10"/>
+                                </g> -->
+                                <image class="home_blob-img"  href="./assets/WhatsApp Image 2024-04-22 at 13.41.56_3bb0f137.jpg"  style="height: 190px; width:auto x=10"/>
+
+                            </svg>
+                        </div>
+
+                        <div class="home_data">
+                            <h1 class="home_title">Hi, I'm SIVA BALAN</h1>
+                            <h3 class="home_subtitle">JAVA Fullstack Developer</h3>
+                            <p class="home_description">Through a collection of carefully curated work samples, I aim to demonstrate my creativity, technical proficiency, and passion for a web Developer.
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home_scroll">
+                        <a href="#about" class="home_scroll-button button--flex">
+                            <i class="uil uil-mouse-alt-2 home_scroll-mouse"></i>
+                            <span class="home_scrool-name">Scroll down</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT PAGE -->
+            <section class="about section" id="about">
+                <h2 class="section_title">About</h2>
+                <span class="section_subtitle">My Introduction</span>
+
+                <div class="about_container container grid">
+                    <img src="anime.jpg" alt="" class="about_img"> 
+
+                    <div class="about_data">
+                        <p class="about_description">6 Months Pursed Certification Course in JAVA, MYSQL,HTML, CSS, JAVASCRIPT, React.JS,
+                            Software Development, Certified Professional in JAVA Full Stack Development.
+
+                        <div class="about_info">
+                            <div>
+                                <span class="about_info-title">2022</span>
+                                <span class="about_info-name">Year <br> pass</span>
+                            </div>
+
+                            <div>
+                                <span class="about_info-title">Fresher</span>
+                                <span class="about_info-name">JAVA <br> FullStack</span>
+                            </div>
+                            
+                            <div>
+                                <span class="about_info-title">10+</span>
+                                <span class="about_info-name">Projects</span>
+                            </div>
+                        </div>
+
+                        <div class="about_buttons">
+                            <a href="Jeeva Keerakatti_Resume.pdf" target="_blank" class="button button-flex">
+                                Resume<i class="uil uil-file-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">Skills</h2>
+                <span class="section_subtitle">My Technical Skills</span>
+
+                <div class="skills_container container grid">
+                    <div>
+                        <!-- SKILLS 1 -->
+                        <div class="skills_content skills_open">
+                            <div class="skills_header">
+                                <i class="uil uil-arrow skills_icon"></i>
+
+                                <div>
+                                    <h1 class="skills_title">Frontend Developer</h1>
+                                    <span class="skills_subtitle">Good desiner</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name"><b>HTML5</b></h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name"><b>CSS3</b></h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name"><b>JAVASCRIPT</b></h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name"><b>REACT.JS</b></h3>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <!-- SKILLS 2 -->
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="uil uil-brackets-curly skills_icon"></i>
+
+                                <div>
+                                    <h1 class="skills_title">Backend Developer</h1>
+                                    <span class="skills_subtitle">Good Developer</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name"><b>JAVA</b></h3>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name"><b></b></h3>
+                                    </div>
+                                </div> -->
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name"><b>My SQL</b></h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- QUALIFICATIONS -->
+            <section class="qualification section" id="qualification">
+                <h2 class="section_title">Qualification</h2>
+                <span class="section_subtitle">My Personal journey</span>
+
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button--flex qualification_active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification_icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification_button button--flex" data-target="#course">
+                            <i class="uil uil-code-branch qualification_icon"></i>
+                            Course
+                        </div>
+                    </div>
+
+                    <div class="qualification_section">
+
+                        <div class="qualification_content qualification_active" data-content id="education">
+                            <!-- QUALIFICATION 1 -->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Bachlor Of Engineering</h3>
+                                    <span class="qualification_subtitle">Kathir College Of Engineering</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018-2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+
+                            <!-- QUALIFICATION 2 -->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">12th</h3>
+                                    <span class="qualification_subtitle">Bharathiyar Matric Higher Secondary School</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2017-2018
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- QUALIFICATION 3 -->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">10th(SCC)</h3>
+                                    <span class="qualification_subtitle">Bharathiyar Matric Higher Secondary School </span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2015-2016
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="qualification_content" data-content id="course">
+                            
+                            <div class="qualification_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">JAVA FullStack</h3>
+                                    <span class="qualification_subtitle">Besant Tecnology, Bengloru</span>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT ME -->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section_subtitle">Get in touch</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class="uil uil-phone contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Call Me</h3>
+                                <span class="contact_subtitle">+91 9500267033</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class="uil uil-envelope contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">charliesiva2000@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class="uil uil-map-marker contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Location</h3>
+                                <span class="contact_subtitle">Bangalore, Karnataka</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact_form grid">
+                        <div class="contact_input grid">
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Name</label>
+                                <input type="text" class="contact_input">
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Email</label>
+                                <input type="email" class="contact_input">
+                            </div>
+                        </div>
+                        
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== DETAIL ====================-->
+        <detail class="detail">
+         <div class="detail_bg">
+            <div class="detail_container container grid">
+                <div>
+                    <h1 class="detail_title">Siva balan</h1>
+                    <span class="detail_subtitle">FullStack Developer</span>
+                </div>
+
+                <u1 class="detail_links">
+                    
+                    <a href="#about" class="detail_link">About</a>
+                    
+                    
+                    <a href="#skills" class="detail_link">Skills</a>
+                
+                
+                    <a href="#contact" class="detail_link">Contact</a>
+                
+                </u1>
+
+                <div class="detail_socials">
+                    <a href="https://www.facebook.com/keerakatti.jeeva?mibextid=ZbWKwL " target="_blank" class="detail_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/k_jeeva_143/" target="_blank" class="detail_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <!-- <a href="https://www.snapchat.com/add/kingjeeva121?share_id=YmJtfEc69a4&locale=en-IN " target="_blank" class="detail_social">
+                        <i class="uil uil-snapchat-ghost"></i> -->
+                    </a>
+                </div>
+            </div>
+
+            <b><p class="detail_copy"><br>&#169;charliesiva2000@gmail.com </p></b>
+            
+         </div>
+        </detail>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src=""></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="portfolio.js"></script>
+    </body>
